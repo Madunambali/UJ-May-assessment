@@ -1,13 +1,13 @@
 {
     "user" : {
         "fullName" : "Mbali Maduna",
-        "photo" : "C:/Users/MTHANDAZO/Downloads/mbalimaduna graduation .jpeg",
+        "photo" : "mbalimaduna graduation .jpeg",
         "phone" : "0691038150",
         "email" : "mbalimaduna76@gmail.com"
     },
     "education" : {
         "institutionName" : "University of Johannesburg",
-        "photo" : "C:/Users/MTHANDAZO/Downloads/UJ picture.jpg",
+        "photo" : "UJ picture.jpg",
         "description" : " The University of Johannesburg (UJ) is a prominent public university located in Johannesburg, South Africa. Established in 2005 through the merger of Rand Afrikaans University (RAU), the Technikon Witwatersrand (TWR), and parts of Vista University, UJ has quickly risen to become one of the leading institutions of higher education in Africa. UJ is known for its strong emphasis on research and innovation. It hosts numerous research centers and institutes that focus on areas such as nanotechnology, water and health, sustainable energy, and African studies. "
     },
     "foreignLanguage" : {
