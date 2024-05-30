@@ -1,38 +1,38 @@
 {
     "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+        "fullName" : "Mbali Maduna",
+        "photo" : "C:/Users/MTHANDAZO/Downloads/mbalimaduna graduation .jpeg",
+        "phone" : "0691038150",
+        "email" : "mbalimaduna76@gmail.com"
     },
     "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+        "institutionName" : "University of Johannesburg",
+        "photo" : "C:/Users/MTHANDAZO/Downloads/UJ picture.jpg",
+        "description" : " The University of Johannesburg (UJ) is a prominent public university located in Johannesburg, South Africa. Established in 2005 through the merger of Rand Afrikaans University (RAU), the Technikon Witwatersrand (TWR), and parts of Vista University, UJ has quickly risen to become one of the leading institutions of higher education in Africa. UJ is known for its strong emphasis on research and innovation. It hosts numerous research centers and institutes that focus on areas such as nanotechnology, water and health, sustainable energy, and African studies. "
     },
     "foreignLanguage" : {
-        "language" : "",
+        "language" : "Swahili",
         "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
+            "englishPhrase" : "Thank you",
+            "foreignLanguage" : "Asante"
         },
         {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
+            "englishPhrase" : "Hello",
+            "foreignLanguage" : "Habari"
         }]
     },
     "favouriteSubjects" : [
         {
-            "name" : "",
-            "description" : ""
+            "name" : "Full Stack Web Development",
+            "description" : "The subject equip leaners with the skills and knowledge necessary to develop web applications across the entire technology stack."
         },
         {
-            "name" : "",
-            "description" : ""
+            "name" : "Mathematical Literacy",
+            "description" : "This subject focuses on equipping leaners with the ability to apply mathemathical concepts and skills to solve real world problems."
         },
         {
-            "name" : "",
-            "description" : ""
+            "name" : "Political Sciences",
+            "description" : "This subject aims to develop a deep understanding of political dynamics and equip students with analytical and critical thinking skills to interpret and engage with political issues effectively.It explores the theory and practice of politics and government at local, national, and international levels. "
         }
     ]
 }

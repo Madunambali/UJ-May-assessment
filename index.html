@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>User Profile</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="user">
+        <h1>{{user.fullName}}</h1>
+        <img src="{{user.photo}}" alt="Profile Photo">
+        <p>Phone: {{user.phone}}</p>
+        <p>Email: <a href="mailto:{{user.email}}">{{user.email}}</a></p>
+    </div>
+
+    <div class="education">
+        <h2>Education</h2>
+        <h3>{{education.institutionName}}</h3>
+        <img src="{{education.photo}}" alt="Institution Photo">
+        <p>{{education.description}}</p>
+    </div>
+
+    <div class="languages">
+        <h2>Foreign Language: {{foreignLanguage.language}}</h2>
+        <ul>
+            {{#each foreignLanguage.phrases}}
+                <li>{{englishPhrase}} - {{foreignLanguage}}</li>
+            {{/each}}
+        </ul>
+    </div>
+
+    <div class="subjects">
+        <h2>Favourite Subjects</h2>
+        <ul>
+            {{#each favouriteSubjects}}
+                <li>
+                    <h3>{{name}}</h3>
+                    <p>{{description}}</p>
+                </li>
+            {{/each}}
+        </ul>
+    </div>
 </body>
 </html>
