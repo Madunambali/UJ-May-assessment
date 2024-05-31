@@ -1,38 +1,62 @@
-{
+ {
     "user" : {
         "fullName" : "Mbali Maduna",
-        "photo" : "mbalimaduna graduation .jpeg",
+        "photo" : "mbalimaduna graduation .jpeg/pic.png",
         "phone" : "0691038150",
-        "email" : "mbalimaduna76@gmail.com"
+        "email" : "mbalimaduna76@gmail.com",
+        "Address": "441a Zwane Street, Zola three, Soweto"
+        
     },
-    "education" : {
+    "education" : [{
+        "institutionName" : "Kwadedangendlale High School",
+        "photo" : "C:/Users/MTHANDAZO/UJ-May-assessment/Kwadedangendlale high school.jpeg/pic.png",
+        "description" : "Kwadedangendlale Secondary School, situated amidst the urban landscapes of the Gauteng Province, is a public secondary school offering ordinary education. Located at 1240, Bhedla Street, Zola North, Soweto, Johannesburg. it stands as a beacon of dedicated learning within the Gauteng community. ",
+        "start_date" :"13 Jamuary 2014",
+        "end_date":"10 December 2018"
+    },
+    {
         "institutionName" : "University of Johannesburg",
-        "photo" : "UJ picture.jpg",
-        "description" : " The University of Johannesburg (UJ) is a prominent public university located in Johannesburg, South Africa. Established in 2005 through the merger of Rand Afrikaans University (RAU), the Technikon Witwatersrand (TWR), and parts of Vista University, UJ has quickly risen to become one of the leading institutions of higher education in Africa. UJ is known for its strong emphasis on research and innovation. It hosts numerous research centers and institutes that focus on areas such as nanotechnology, water and health, sustainable energy, and African studies. "
-    },
-    "foreignLanguage" : {
-        "language" : "Swahili",
-        "phrases" : [{
-            "englishPhrase" : "Thank you",
-            "foreignLanguage" : "Asante"
+        "photo" : "UJ picture.jpg/pic.png",
+        "description" : " The University of Johannesburg (UJ) is a prominent public university located in Johannesburg, South Africa. Established in 2005 through the merger of Rand Afrikaans University (RAU), the Technikon Witwatersrand (TWR), and parts of Vista University, UJ has quickly risen to become one of the leading institutions of higher education in Africa. UJ is known for its strong emphasis on research and innovation. It hosts numerous research centers and institutes that focus on areas such as nanotechnology, water and health, sustainable energy, and African studies.",
+        "start_date" :"03 February 2020",
+        "end_date":"30 November 2023"
+    }
+],
+
+    "skills": [
+        "Time keeper",
+        "Hard worker",
+        "Leadership",
+        "Networking",
+        "Problem solving",
+        "Comunication",
+        "Team player" 
+      ],
+
+      "certifications": [
+        {
+            "name": "Achievement certificate",
+            "issuing_institution": "Kwadedangendlale High School",
+            "issue_date": "19 October 2017",
+            "description": "Best leaner in Grade 11, Maths Literacy"
+            
+          },
+       
+        {
+          "name": "Matric certificate",
+          "issuing_institution": "Kwadedangendlale High School",
+          "issue_date": "18 January 2019"
+          
         },
         {
-            "englishPhrase" : "Hello",
-            "foreignLanguage" : "Habari"
-        }]
-    },
-    "favouriteSubjects" : [
-        {
-            "name" : "Full Stack Web Development",
-            "description" : "The subject equip leaners with the skills and knowledge necessary to develop web applications across the entire technology stack."
-        },
-        {
-            "name" : "Mathematical Literacy",
-            "description" : "This subject focuses on equipping leaners with the ability to apply mathemathical concepts and skills to solve real world problems."
-        },
-        {
-            "name" : "Political Sciences",
-            "description" : "This subject aims to develop a deep understanding of political dynamics and equip students with analytical and critical thinking skills to interpret and engage with political issues effectively.It explores the theory and practice of politics and government at local, national, and international levels. "
-        }
+            "name": "B A degree",
+            "issuing_institution": "University of Johannesburg",
+            "issue_date": "10 May 2024",
+            "description": "Majoring in English and Political Sciences"
+            
+            
+          }
     ]
+
+
 }

@@ -4,41 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Profile</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="user">
-        <h1>{{user.fullName}}</h1>
-        <img src="{{user.photo}}" alt="Profile Photo">
-        <p>Phone: {{user.phone}}</p>
-        <p>Email: <a href="mailto:{{user.email}}">{{user.email}}</a></p>
-    </div>
+        <div class="user-profile">
+            <h1>{{user.fullName}}</h1>
+            <img src="{{user.photo}}" alt="Profile Photo">
+            <p>Phone: {{user.phone}}</p>
+            <p>Email: <a href="mailto:{{user.email}}">{{user.email}}</a></p>
+            <p>Address: {{user.Address}}</p>
+        </div>
 
-    <div class="education">
-        <h2>Education</h2>
-        <h3>{{education.institutionName}}</h3>
-        <img src="{{education.photo}}" alt="Institution Photo">
-        <p>{{education.description}}</p>
-    </div>
-
-    <div class="languages">
-        <h2>Foreign Language: {{foreignLanguage.language}}</h2>
-        <ul>
-            {{#each foreignLanguage.phrases}}
-                <li>{{englishPhrase}} - {{foreignLanguage}}</li>
-            {{/each}}
-        </ul>
-    </div>
-
-    <div class="subjects">
-        <h2>Favourite Subjects</h2>
-        <ul>
-            {{#each favouriteSubjects}}
-                <li>
-                    <h3>{{name}}</h3>
+        <div class="education">
+            <h2>Education</h2>
+            {{#each education}}
+                <div class="education-item">
+                    <h3>{{institutionName}}</h3>
+                    <img src="{{photo}}" alt="{{institutionName}} Photo">
                     <p>{{description}}</p>
-                </li>
+                    <p>Start Date: {{start_date}}</p>
+                    <p>End Date: {{end_date}}</p>
+                </div>
             {{/each}}
-        </ul>
+        </div>
+
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                {{#each skills}}
+                    <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <div class="certifications">
+            <h2>Certifications</h2>
+            {{#each certifications}}
+                <div class="certification-item">
+                    <h3>{{name}}</h3>
+                    <p>Issuing Institution: {{issuing_institution}}</p>
+                    <p>Issue Date: {{issue_date}}</p>
+                    {{#if description}}
+                        <p>Description: {{description}}</p>
+                    {{/if}}
+                </div>
+            {{/each}}
+        </div>
     </div>
 </body>
 </html>
