@@ -9,8 +9,8 @@
 <body>
     <div class="user">
         <div class="user-profile">
-            <h1>{{user.fullName}}</h1>
-            <img src="{{user.photo}}" alt="Profile Photo">
+            <div class="name"><h1>{{user.fullName}}</h1>
+            <img src="{{user.photo}}" alt="Profile Photo"></div>
             <p>Phone: {{user.phone}}</p>
             <p>Email: <a href="mailto:{{user.email}}">{{user.email}}</a></p>
             <p>Address: {{user.Address}}</p>
@@ -20,8 +20,8 @@
             <h2>Education</h2>
             {{#each education}}
                 <div class="education-item">
-                    <h3>{{institutionName}}</h3>
-                    <img src="{{photo}}" alt="{{institutionName}} Photo">
+                   <div class="mbali"> <h3>{{institutionName}}</h3>
+                    <img src="{{photo}}" alt="{{institutionName}} Photo"></div>
                     <p>{{description}}</p>
                     <p>Start Date: {{start_date}}</p>
                     <p>End Date: {{end_date}}</p>

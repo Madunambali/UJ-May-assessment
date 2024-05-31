@@ -1,22 +1,22 @@
  {
     "user" : {
         "fullName" : "Mbali Maduna",
-        "photo" : "mbalimaduna graduation .jpeg/pic.png",
+        "photo" : "./mbalimaduna-graduation .jpeg",
         "phone" : "0691038150",
-        "email" : "mbalimaduna76@gmail.com",
+        "email" : "mbalimaduna76@gmail.com ",
         "Address": "441a Zwane Street, Zola three, Soweto"
         
     },
     "education" : [{
         "institutionName" : "Kwadedangendlale High School",
-        "photo" : "C:/Users/MTHANDAZO/UJ-May-assessment/Kwadedangendlale high school.jpeg/pic.png",
+        "photo" : "./Kwadedangendlale-high-school.jpeg",
         "description" : "Kwadedangendlale Secondary School, situated amidst the urban landscapes of the Gauteng Province, is a public secondary school offering ordinary education. Located at 1240, Bhedla Street, Zola North, Soweto, Johannesburg. it stands as a beacon of dedicated learning within the Gauteng community. ",
         "start_date" :"13 Jamuary 2014",
         "end_date":"10 December 2018"
     },
     {
         "institutionName" : "University of Johannesburg",
-        "photo" : "UJ picture.jpg/pic.png",
+        "photo" : "./UJ-picture.jpg",
         "description" : " The University of Johannesburg (UJ) is a prominent public university located in Johannesburg, South Africa. Established in 2005 through the merger of Rand Afrikaans University (RAU), the Technikon Witwatersrand (TWR), and parts of Vista University, UJ has quickly risen to become one of the leading institutions of higher education in Africa. UJ is known for its strong emphasis on research and innovation. It hosts numerous research centers and institutes that focus on areas such as nanotechnology, water and health, sustainable energy, and African studies.",
         "start_date" :"03 February 2020",
         "end_date":"30 November 2023"

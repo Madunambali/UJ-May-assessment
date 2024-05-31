@@ -10,13 +10,13 @@ body {
     width: 80%;
     margin: 20px auto;
     padding: 20px;
-    background-color: #f183e3;
+    background-color: #dbccd9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
 h1, h2, h3 {
-    color: #006699;
+    color: #1d0213;
 }
 
 .user-profile, .education, .skills, .certifications {
@@ -25,8 +25,15 @@ h1, h2, h3 {
     border-bottom: 1px solid #0e0a0a;
 }
 
-.user-profile img, .education img {
-    max-width: 100%;
+.user-profile img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 25%;
+}
+.education img {
+    width: 40%;
     height: auto;
     border-radius: 5px;
     margin-top: 10px;
@@ -43,7 +50,7 @@ h1, h2, h3 {
 }
 
 .skills li, .certifications li {
-    background-color: #b9ddfa;
+    background-color: #dbccd9;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
@@ -59,10 +66,25 @@ h1, h2, h3 {
 }
 
 a {
-    color: #006699;
+    color: #050505;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
 }
+@media screen and (min-width: 960px) {
+    .name{
+      display: flex;  
+    
+      justify-content: space-between;
+    }
+    .mbali{
+        display: flex;  
+    
+      justify-content: space-between;
+    }
+
+   
+}
+
